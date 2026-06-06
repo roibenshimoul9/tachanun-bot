@@ -3,7 +3,10 @@ name: Daily Tachanun Check
 on:
   schedule:
     # Runs every day at 4:00 UTC (7:00 AM Israel time)
+   
     - cron: '0 4 * * *'
+    
+
  workflow_dispatch:    
 jobs:
   build:
