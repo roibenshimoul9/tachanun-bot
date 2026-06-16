@@ -1,2 +1,4 @@
-hdate
 python-telegram-bot
+hdate
+astral
+pytz
